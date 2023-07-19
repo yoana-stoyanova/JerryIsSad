@@ -4,8 +4,7 @@
 using namespace std;
 void Mood(int s)
 {
-    if(s<0)
-    {
+    if(s<0){
         cout<<"\n\n_______________________\n";
         cout<<"|  Jerry is very sad. |\n";
         cout<<"|        *****        |\n";
@@ -13,9 +12,7 @@ void Mood(int s)
         cout<<"|        * ^ *        |\n";
         cout<<"|        *****        |\n";
         cout<<"|_____________________|\n\n";
-    }
-    if(s==0)
-    {
+    } else if(s==0){
         cout<<"\n\n__________________\n";
         cout<<"|  Jerry is sad. |\n";
         cout<<"|     *****      |\n";
@@ -23,9 +20,7 @@ void Mood(int s)
         cout<<"|     * ^ *      |\n";
         cout<<"|     *****      |\n";
         cout<<"|________________|\n\n";
-    }
-    if(s==1)
-    {
+    } else if(s==1){
         cout<<"\n\n__________________________\n";
         cout<<"| Jerry is not that sad. |\n";
         cout<<"|         *****          |\n";
@@ -33,8 +28,7 @@ void Mood(int s)
         cout<<"|         * ^ *          |\n";
         cout<<"|         *****          |\n";
         cout<<"|________________________|\n\n";
-    }
-    if(s==2 || s==3 || s==4)
+    } else if(s==2 || s==3 || s==4)
     {
         cout<<"\n\n______________________________________\n";
         cout<<"| Jerry is fine but he is not happy. |\n";
@@ -43,9 +37,7 @@ void Mood(int s)
         cout<<"|               * - *                |\n";
         cout<<"|               *****                |\n";
         cout<<"|____________________________________|\n\n";
-    }
-    if(s==5)
-    {
+    } else {
         cout<<"_________________________________\n";
         cout<<"|   Jerry is happy! YOU WON!!!  |\n";
         cout<<"|             *****             |\n";
